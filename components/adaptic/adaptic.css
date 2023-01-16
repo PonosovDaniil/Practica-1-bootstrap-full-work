@@ -1,0 +1,141 @@
+@media (max-width: 1400px) {
+    main {
+        padding: 0px 5%;
+    }
+}
+
+@media (max-width: 1000px) {
+    main {
+        padding: 0px 5%;
+    }
+    .navbar.navbar-dark.navbar-expand-lg {
+        margin-top: 25px;
+    }
+    header {
+        margin-bottom: 25px;
+    }
+    .img_background {
+        transform: translateY(-100px);
+    }
+}
+/* ================= */
+/* ================= */
+@media (max-width: 850px) {
+    .statistics_wrap {
+        flex-direction: row;
+        justify-content: start;
+        gap: 40px;
+    }
+    .block_statistics {
+        margin-top: 190px;
+    }
+    .block_signature {
+        margin-top: 50px;
+    }
+
+    .info_list {
+        width: 400px;
+    }
+    .title_point {
+        font-size: 30px;
+    }
+}
+/* ================= */
+/* ================= */
+@media (max-width: 750px) {
+    header {
+        margin-bottom: 15px;
+    }
+    .block_statistics {
+        margin-top: 135px;
+    }
+    .block_signature {
+        margin-top: 40px;
+    }
+    .list_point {
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .title_point {
+        height: auto;
+    }
+}
+/* ================= */
+/* ================= */
+@media (max-width: 700px) {
+    .block_signature {
+        width: auto;
+    }
+    .wrap_marker {
+        position: relative;
+        transform: translate(0px, 200px);
+    }
+    .gray_text.block_signature {
+        font-size: 14px;
+    }
+    .carousel {
+        margin-top: 100px;
+    }
+    .workout_list {
+        margin-top: 100px;
+    }
+}
+/* ================= */
+@media (max-width: 600px) {
+    .carousel-caption.d-md-block {
+        padding: 5px;
+    }
+    .carousel-caption > h5 {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .carousel-caption > p {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .carousel-indicators {
+        bottom: -40px;
+    }
+    .list_point {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .info_list {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title_point {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 520px) {
+    .navbar-nav.gap-5 {
+        margin-bottom: 40px;
+    }
+    .img_background {
+        transform: translate(0, -50px);
+    }
+    .number_point {
+        font-style: 15px;
+    }
+    .info_list {
+        width: 250px;
+    }
+}
+
+/* ==============> nav menu <============== */
+/* ==============> nav menu <============== */
+@media (min-width: 992px) {
+    .navbar-expand-lg > .container-fluid > .collapse.navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
+/* ==============> nav menu <============== */
+/* ==============> nav menu <============== */

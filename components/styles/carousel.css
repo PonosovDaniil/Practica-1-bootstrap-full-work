@@ -1,0 +1,38 @@
+.carousel {
+    margin-top: 190px;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    background: linear-gradient(#00000000, #000);
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.carousel-caption > h5 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+}
+.carousel-caption > p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.5px;
+    color: #ffffff67;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}

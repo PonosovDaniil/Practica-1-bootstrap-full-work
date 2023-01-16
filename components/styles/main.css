@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    --accent_color: #25ab75;
+    --transparent_color: #ffffff19;
+}
+
+/* =============================== */
+/* =============================== */
+/* =============================== */
+* {
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+}
+
+.head_text {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+}
+/* =============================== */
+/* =============================== */
+/* =============================== */
+
+body {
+    background: #000;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0px 120px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.gray_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    color: #ffffff50;
+    position: relative;
+    z-index: 1;
+}
+/* =============================== */
+/* =============================== */
+/* =============================== */
+.button_wrap {
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+}
+.my_btn {
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: #ffffff;
+
+    cursor: pointer;
+    transition: 400ms;
+}
+.my_btn:hover {
+    opacity: 80%;
+    transform: calc(85%);
+    transition: 400ms;
+}
+.green_btn {
+    background: var(--accent_color);
+}
+.transparent_btn {
+    background: var(--transparent_color);
+}
